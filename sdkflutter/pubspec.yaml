@@ -1,0 +1,29 @@
+name: sdkflutter
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0 # Commande 'flutter pub get' dans le termina
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  module:
+    androidX: true
+    androidPackage: com.example.sdkflutter
+    iosBundleIdentifier: com.example.sdkflutter
