@@ -320,7 +320,7 @@ L’architecture prévue est la suivante :
 Dans le dossier `sdkflutter/` :
 ```bash
 flutter pub get
-flutter run # lance l’entrypoint et affiche directement l’écran profil
+flutter run -t lib/azeoo_entrypoint.dart # lance l’entrypoint et affiche directement l’écran profil
 ```
 L’entrypoint lance directement l’écran profil du SDK en fonction du `userId`.
 
